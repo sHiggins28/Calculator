@@ -1,19 +1,10 @@
 package ie.gmit;
 
-import java.util.Scanner;
 
+// this will add two numbers and display the outcome.
 public class Calculator {
 
-    class AddNumbers {
-        public void main(String args[]) {
-            int x, y, z;
-            System.out.println("Enter two integers to calculate their sum ");
-            Scanner in = new Scanner(System.in);
-            x = in.nextInt();
-            y = in.nextInt();
-            z = x + y;
-            System.out.println("Sum of entered integers = " + z);
-        }
-    }
+    public static int Addsum(int firstNum, int secondNum){return firstNum+secondNum;}
+
 
 }
